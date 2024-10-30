@@ -1,0 +1,75 @@
+
+
+.side-image{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    border: 3px solid #ffcc33
+}
+
+.card{
+    display:flex;
+    flex-direction: row;
+    height: 110px;
+    width:400px;
+    background-color:slategrey;
+    margin-top: 10px;
+}
+.card-down{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+    background-color: grey;
+    margin-top:300px;
+}
+.info{
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.side-info{
+    margin-top: 10px;
+    margin-left: 15px ;
+}
+
+.skills {
+    /* display: flex; */
+    /* justify-content:left; */
+    /* flex-direction: column; */
+    width: 400px;
+    /* padding-top: 300px; */
+    
+    margin-top: 150px;
+    /* padding-left: 30px; */
+    /* margin-left: -500px; */
+}
+.marge{
+    margin-left: 11px;
+}
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width:50%;
+    background-color: #ffcc33;
+}
+
+.skill {
+    margin-bottom: 10px;
+    margin-left: 13px;
+}
+.about-card{
+    display:flex ;
+    flex-direction:row ;
+}
+
+/* .container {
+    width: 50%;
+    display:inline-block;
+} */

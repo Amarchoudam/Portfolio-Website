@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: slategrey;
+}
+
+
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    /* z-index: 1000; */
+    /* margin-top: 10px; */
+    /* margin-left: 40px; */
+    background-color: black;
+    color:white;
+    padding: 10px 0;
+}
+header nav ul li h1{
+    margin-left: 40px;
+}
+main {
+    margin-top: 130px;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    /* padding: 10px;
+    margin:10px; */
+    
+}
+
+nav ul li {
+    margin: 15px;
+    
+}
+
+nav ul li a{
+    color: white;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    height:auto;
+    width:100%;
+    /* margin-left: 50px; */
+    margin-top: 50px;
+    gap:50px;
+    /* background-color: grey; */
+}
+.container h2,.container h1{
+    line-height: 35px;
+}
+
+.container img{
+    float:right;
+    width:250px;
+    height:auto;
+    object-fit: cover;
+    margin-left: 20px;
+}
+/* .container h2, .container h1{
+    clear:both;
+} */
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+.butn{
+    border-radius: 6px;
+    font-size: 16px;
+    border-style: solid;
+    border-color: black;
+    background-color: aquamarine;
+    height:35px;
+    width: 80px;
+    
+}
+.looter{
+    height: 100px;
+    width:100%;
+    background-color: antiquewhite;
+    margin-top: 30px;
+}
+
+.page-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#about {
+    /* width: 20%;
+     */
+     margin: 0px, 150px , 0px , 150px ;
+}
+
+.card-down>.skills{
+    margin-top: 150px;
+}
+
+.card1 {
+    margin-bottom: 150px;
+}
+
+.cnt-abt {
+    /* width: 40%; */
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.profile>.card>.info{
+    padding-top: 50px;
+    white-space: nowrap;
+
+}
+
+.about-card{
+    margin-left:100px;
+}
+
+.side-info>img{
+    width: 180px;
+    height: 180px;
+}

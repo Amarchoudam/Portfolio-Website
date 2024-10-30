@@ -1,0 +1,37 @@
+.cont-card{
+    display: flex;
+    justify-content: center;
+    height:auto;
+    width: auto;
+    background-color:slategrey;
+    margin-top: 20px;
+    
+}
+
+.cont-main-card{
+    height:auto;
+    width:auto;
+    background-color: bisque;
+    margin:15px;
+   
+    padding-left: 12px;
+}
+.last-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+.contact-side{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add-image{
+    border-radius: 50%;
+    height:60px;
+    width:60px;
+    margin:5px 0px 10px 5px;
+}
