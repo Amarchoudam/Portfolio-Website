@@ -3,34 +3,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 body{
-    background-color: slategrey;
+   background-image:linear-gradient(#d8dee8,#8a31a8,#a89c31)
+
 }
 
-
-header{
+.black-card{
+    height:30px;
+    width:400px;
+    /* background-color: aliceblue; */
+    margin-left: 10px;
+    margin-top: 15px;
+}
+/* header{
+    
+} */
+header nav ul li h1{
+    margin-left: 40px;
+}
+main {
+    margin-top: 150px;
+}
+nav{
+    margin-top: -10px;
     position:fixed;
-    top: 0;
+    top:0px;
+    height:auto;
     width: 100%;
-    /* z-index: 1000; */
+    z-index: 1000;
     /* margin-top: 10px; */
     /* margin-left: 40px; */
     background-color: black;
     color:white;
     padding: 10px 0;
 }
-header nav ul li h1{
-    margin-left: 40px;
-}
-main {
-    margin-top: 130px;
-}
 nav ul{
     display: flex;
     justify-content: right;
     list-style-type: none;
-    /* padding: 10px;
-    margin:10px; */
+    /* padding: 10px; */
+    margin-top:0px;
+    
+}
+nav a:hover{
+    color:hwb(55 20% 0%)
+   
+
+}
+
+nav ul li a:focus{
+    background-color:#ff9933
     
 }
 
@@ -42,7 +68,9 @@ nav ul li {
 nav ul li a{
     color: white;
 }
-
+section {
+    scroll-margin-top: 110px; /* Adjust according to your header height */
+}
 .container{
     display: flex;
     /* flex-direction: row; */
@@ -94,7 +122,7 @@ nav ul li a{
 .looter{
     height: 100px;
     width:100%;
-    background-color: antiquewhite;
+    background-color:#4d4d4d;
     margin-top: 30px;
 }
 

@@ -3,7 +3,7 @@
     justify-content: center;
     height:auto;
     width: auto;
-    background-color:slategrey;
+    /* background-color:slategrey; */
     margin-top: 20px;
     
 }
@@ -11,7 +11,7 @@
 .cont-main-card{
     height:auto;
     width:auto;
-    background-color: bisque;
+    background-color: #d98cb3;
     margin:15px;
    
     padding-left: 12px;
@@ -27,6 +27,7 @@
 .contact-side{
     text-align: center;
     margin-top: 20px;
+    font-size:28px;
 }
 
 .add-image{
