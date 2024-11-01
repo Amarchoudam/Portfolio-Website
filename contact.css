@@ -9,10 +9,11 @@
 }
 
 .cont-main-card{
-    height:auto;
-    width:auto;
-    background-color: #d98cb3;
+    height:200px;
+    width:250px;
+    background-color:  #ccffee;
     margin:15px;
+    border-radius: 8px;
    
     padding-left: 12px;
 }
