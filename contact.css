@@ -16,6 +16,7 @@
     border-radius: 8px;
    
     padding-left: 12px;
+    overflow: hidden;
 }
 .last-card{
     display: flex;
